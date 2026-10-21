@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// Functie care elimina elementul de pe pozitia 'pos' prin deplasare la stanga
+//Functie care elimina elementul de pe pozitia 'pos' prin deplasare la stanga
 void eliminaElement(int* v, int& n, int pos)
 {
     // Mutam toate elementele de dupa 'pos' cu o pozitie la stanga
@@ -11,7 +11,7 @@ void eliminaElement(int* v, int& n, int pos)
         v[i] = v[i + 1];
     }
 
-    // Scadem dimensiunea logica a vectorului
+    // Scad dimensiunea logica a vectorului
     n--;
 }
 
